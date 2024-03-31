@@ -1,0 +1,96 @@
+body {
+    font-family:'Roboto', sans-serif;
+}
+.intro
+{
+    height:100%;
+    background-color: rgb(66, 11, 88);
+
+}
+.head_name{
+    display:none;
+    align-content: center;
+    color:rgb(115, 80, 160);
+    margin:auto;
+    padding-right:50px;
+}
+#navbarNavDropdown .navbar-nav .nav-link:hover{
+    color:rgb(66, 11, 88) ;
+}
+#img{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    margin: auto;
+    border: 2px solid rgb(181, 13, 248);
+}
+.btn{
+    background-color: rgb(69, 10, 109);
+    width:100px;
+    color: white;
+    border-radius:20px 20px 20px 20px;
+    border:1px solid white;
+}
+#img_more{
+    padding-top:80px;
+    background-color:rgb(66, 11, 88);
+    border:none;
+}
+.projects{
+    height:auto;
+    width:auto;
+    background-color:rgb(214, 208, 212);
+    overflow: hidden;
+}
+.projects:nth-child(3){
+    background-color:rgb(214, 208, 212);
+}
+.project-head{
+text-align: center;
+color: black;
+padding-top:10px;
+}
+#git-btn
+{
+    background-color: rgb(12, 140, 199);
+    width: auto;
+    overflow: hidden;
+    color: white;
+    border-radius:5px 30px 5px 30px;
+    border:1px solid white;
+}
+#git-btn:hover{
+    background-color:rgb(2, 238, 73);
+}
+.card-img-top{
+    height:200px;
+}
+@media screen and (max-width:992px){
+    .head_name{
+        display:block;
+        color:rebeccapurple;
+        text-decoration:none;
+    }
+    #name_user{
+        display: none;
+    }
+    #img_more{
+        padding-top:50px;
+    }
+    .intro
+    {
+    height:750px;
+    }
+    .btn{
+        display: block;
+        width:auto;
+        margin:auto;
+        border-radius:0;
+        margin-top:5px;
+    }
+    .projects{
+        display: block;
+        overflow: hidden;
+    }
+}
+
